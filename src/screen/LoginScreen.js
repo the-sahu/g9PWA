@@ -29,14 +29,7 @@ const LoginScreen = () => {
               </label>
               <input className="w-full content-center text-base px-4 py-2 border  border-primary-500 rounded-lg focus:outline-none focus:border-primary-800" type="" placeholder="*********" />
             </div>
-              <div className="flex items-center justify-between">
-              
-              <div className="text-sm">
-                <a href="#" className="text-green-500 hover:text-green-500">
-                  Forgot your password?
-                </a>
-              </div>
-            </div>
+
             <div>
               
               <Link to="/portfolio">

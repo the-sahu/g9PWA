@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="px-2 w-full fixed bottom-0 bg-white border-t-2 border-primary-500 z-50 rounded-t-3xl">
             <div className="flex">
                 <div className="flex-1 group">
-                    <a href="https://www.moneycontrol.com/" target="_blank" className="flex items-end justify-center text-center mx-auto px-0 pt-2 w-full text-gray-800 group-hover:text-primary-600">
+                    <a href="https://www1.nseindia.com/" target="_blank" className="flex items-end justify-center text-center mx-auto px-0 pt-2 w-full text-gray-800 group-hover:text-primary-600">
                         <span className="block px-1 pt-1 pb-1">
                             {/* <i className="far fa-home "></i> */}
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 text-primary-500 text-center mx-auto w-8 text-2xl pt-1 mb-1 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -9,6 +9,8 @@ import HomeScreen from './screen/HomeScreen';
 import LoginScreen from './screen/LoginScreen';
 import PortfolioScreen from './screen/PortfolioScreen';
 import ProfileScreen from './screen/ProfileScreen';
+import QrCode from './screen/QrCode';
+import Withdraw from './screen/Withdraw';
 
 const defaultScreens = () => (
   <>
@@ -24,6 +26,9 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
+        <Route exact path="/" component={LoginScreen} />
+        <Route exact path="/qrcode" component={QrCode} />
+        <Route exact path="/withdraw" component={Withdraw} />
         <Route exact path="/login" component={LoginScreen} />
         {/* <Route exact path="/forgotpassword" component={ForgotPasswordScreen} />
         <Route
@@ -38,21 +43,3 @@ const App = () => {
 };
 export default App;
 
-
-
-
-// function App() {
-//   return (
-//     <div>
-//       <BrowserRouter>
-//       <Header/>
-//       <Route path="/" component={HomeScreen} exact/>
-     
-//       <Route path="/login"  component={LoginScreen} exact/>
-//       <Footer/>
-//       </BrowserRouter>
-//     </div>
-//   );
-// }
-
-// export default App;
